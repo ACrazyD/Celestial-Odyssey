@@ -26,3 +26,5 @@
 /shaderpacks
 /usercache.json
 /usernamecache.json
+servers.dat_old
+.gitignore

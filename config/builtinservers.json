@@ -2,8 +2,8 @@
   "badgeVisible": true,
   "builtinServers": [
     {
-      "name": "Default Server",
-      "address": "127.0.0.1",
+      "name": "Offical Server",
+      "address": "cosmic.mcstellarum.com",
       "forced": false
     }
   ]
