@@ -1,0 +1,15 @@
+{
+	chapter_groups: [
+		{ id: "1E486C2A4EB27CE9", title: "C1: The Arrival" }
+		{ id: "1244B3E603CFF050", title: "C2: Cosmic Echoes" }
+		{ id: "4B8C23A4804B749F", title: "C3: Storage Of The Cosmos" }
+		{ id: "19F4CB04A96A57F6", title: "C4: Wispers Of The Void" }
+		{ id: "7D3F8315B82BAEF4", title: "C5: Techtonicc Revelations" }
+		{ id: "26AF95132564583A", title: "C6: Quantum Enigma" }
+		{ id: "3016B3C25B842A3F", title: "C7: Eclipsed Memories" }
+		{ id: "4F569C331555ACAF", title: "C8: Celestial Convergence" }
+		{ id: "7E2D5B16D797EE77", title: "C9: Final Frontier" }
+		{ id: "69CEC843A78E6E5A", title: "The Universe Beckons" }
+		{ id: "434673C718B75760", title: "Stellar Peddler" }
+	]
+}
