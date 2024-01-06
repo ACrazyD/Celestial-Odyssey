@@ -1,4 +1,3 @@
-
 ServerEvents.recipes(e => {
     e.remove({ mod: 'minecraft' })//Temp - gonna test something.
 

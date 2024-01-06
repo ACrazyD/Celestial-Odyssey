@@ -42,7 +42,7 @@ StartupEvents.registry('item', e => {
 
     //gateways
 
-    //gtceu  WHY DO I HATE MY SELF
+    //gtceu
 
     //hyperbox
 
