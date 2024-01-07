@@ -66,7 +66,7 @@ ServerEvents.recipes(e => {
     e.remove({ mod: 'gateways' })
 
     //gtceu  WHY DO I HATE MY SELF
-    e.remove({ mod: 'gtceu' })//WHY DO I HATE MY SELF
+    //e.remove({ mod: 'gtceu' })//WHY DO I HATE MY SELF
 
     //hyperbox
     e.remove({ mod: 'hyperbox' })
