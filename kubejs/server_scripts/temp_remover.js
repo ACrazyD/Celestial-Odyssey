@@ -1,170 +1,90 @@
 ServerEvents.recipes(e => {
-    //e.remove({ mod: 'minecraft' })//Temp - gonna test something.
+    //minecraft
+    //e.remove({ mod: 'minecraft' }) //Temp - gonna test something.
 
     //APOTH
-    e.remove({ mod: 'apotheosis' })//BookShelfs Unaffected
+    e.remove({ mod: 'apotheosis' }) //BookShelfs Unaffected
+    e.remove({ mod: 'apotheotic_additions' })
 
     //create
     e.remove({ mod: 'create' })
-
-    //ae2wtlib
-    e.remove({ mod: 'ae2wtlib' })
-
-    //ad_astra
     e.remove({ mod: 'ad_astra' })
+    e.remove({ mod: 'create_new_age' })
+    e.remove({ mod: 'railways' })
+    e.remove({ mod: 'tfmg' })
+    e.remove({ mod: 'createlowheated' })
+    e.remove({ mod: 'compressedcreativity' })
 
-    //alexscaves
-    e.remove({ mod: 'alexscaves' })
+    e.remove({ mod: 'pneumaticcraft' })
 
     //ae2
     e.remove({ mod: 'ae2' })
-
-    //apotheotic_additions
-    e.remove({ mod: 'apotheotic_additions' })
-
-    //silentgear
-    e.remove({ mod: 'silentgear' })
-
-    //appmek
+    e.remove({ mod: 'ae2wtlib' })
     e.remove({ mod: 'appmek' })
+    e.remove({ mod: 'expatternprovider' })
+    e.remove({ mod: 'megacells' })
+    e.remove({ mod: 'arseng' })
 
-    //betterarcheology
-    e.remove({ mod: 'betterarcheology' })
-
-    //buildinggadgets2
-    e.remove({ mod: 'buildinggadgets2' })
-
-    //compressedcreativity
-    e.remove({ mod: 'compressedcreativity' })
-
-    //create_new_age
-    e.remove({ mod: 'create_new_age' })
-
-    //railways
-    e.remove({ mod: 'railways' })
-
-    //tfmg
-    e.remove({ mod: 'tfmg' })
+    //mekanism
+    e.remove({ mod: 'mekanism' })
+    e.remove({ mod: 'mekanismgenerators' })
 
     //enderchests/endertanks
     e.remove({ mod: 'enderchests' })
     e.remove({ mod: 'endertanks' })
 
-    //expatternprovider
-    e.remove({ mod: 'expatternprovider' })
+    //gtceu
+    //e.remove({ mod: 'gtceu' })
+    //e.remove({ mod: 'gcyr' })
 
     //farmersdelight
+    e.remove({ mod: 'solonion' })
     e.remove({ mod: 'farmersdelight' })
-
-    //friendsandfoes
-    e.remove({ mod: 'friendsandfoes' })
-
-    //functionalstorage
-    e.remove({ mod: 'functionalstorage' })
-
-    //gateways
-    e.remove({ mod: 'gateways' })
-
-    //gtceu  WHY DO I HATE MY SELF
-    //e.remove({ mod: 'gtceu' })//WHY DO I HATE MY SELF
-
-    //hyperbox
-    e.remove({ mod: 'hyperbox' })
-
-    //megacells
-    e.remove({ mod: 'megacells' })
-
-    //mekanism
-    e.remove({ mod: 'mekanism' })
-
-    //mekanismgenerators
-    e.remove({ mod: 'mekanismgenerators' })
-
-    //minecards
-    e.remove({ mod: 'minecards' })
-
-    //pneumaticcraft
-    e.remove({ mod: 'pneumaticcraft' })
-
-    //adpother
-    e.remove({ mod: 'adpother' })
-
-    //sophisticatedbackpacks
-    e.remove({ mod: 'sophisticatedbackpacks' })
-
-    //sophisticatedstorage
-    e.remove({ mod: 'sophisticatedstorage' })
-
-    //sfm
-    e.remove({ mod: 'sfm' })
-
-    //weather2
-    e.remove({ mod: 'weather2' })
-
-    //cuisinedelight
     e.remove({ mod: 'cuisinedelight' })
-
-    //ends_delight
     e.remove({ mod: 'ends_delight' })
-
-    //delightful
     e.remove({ mod: 'delightful' })
-
-    //nethersdelight
     e.remove({ mod: 'nethersdelight' })
 
-    //solonion
-    e.remove({ mod: 'solonion' })
-
-    //silentcompat
-    e.remove({ mod: 'silentcompat' })
-
-    //tiab
-    e.remove({ mod: 'tiab' })
-
-    //storagenetwork
-    e.remove({ mod: 'storagenetwork' })
-
-    //createlowheated
-    e.remove({ mod: 'createlowheated' })
-
-    //Torch Master
-    e.remove({ mod: 'torchmaster' })
-
-    //Flux Networks
-    e.remove({ mod: 'fluxnetworks' })
-
-    //bloodmagic
-    e.remove({ mod: 'bloodmagic' })
-
-    //tomeofblood
-    e.remove({ mod: 'tomeofblood' })
-    
     //ars_nonveau
     e.remove({ mod: 'ars_nouveau' })
+    e.remove({ mod: 'ars_ocultas' })
+    e.remove({ mod: 'ars_instrumentum' })
 
-    //arseng
-    e.remove({ mod: 'arseng' })
+    //BloodMagic
+    e.remove({ mod: 'bloodmagic' })
+    e.remove({ mod: 'tomeofblood' })
+
+    //cctweaked
+    e.remove({ mod: 'computercraft' })
+    e.remove({ mod: 'advancedperipherals' })
+
+    //Storages
+    e.remove({ mod: 'sophisticatedbackpacks' })
+    e.remove({ mod: 'sophisticatedstorage' })
+    e.remove({ mod: 'functionalstorage' })
+    e.remove({ mod: 'storagenetwork' })
 
     //occultism
     e.remove({ mod: 'occultism' })
 
-    //cctweaked
-    e.remove({ mod: 'computercraft' })
-
-    //advancedperipherals
-    e.remove({ mod: 'advancedperipherals' })
-
-    //treasure2
+    //Misc
+    e.remove({ mod: 'silentgear' })
+    e.remove({ mod: 'friendsandfoes' })
+    e.remove({ mod: 'betterarcheology' })
+    e.remove({ mod: 'buildinggadgets2' })
+    e.remove({ mod: 'alexscaves' })
+    e.remove({ mod: 'gateways' })
+    e.remove({ mod: 'hyperbox' })
+    e.remove({ mod: 'minecards' })
+    e.remove({ mod: 'adpother' })
+    e.remove({ mod: 'weather2' })
+    e.remove({ mod: 'silentcompat' })
+    e.remove({ mod: 'tiab' })
+    e.remove({ mod: 'torchmaster' })
+    e.remove({ mod: 'fluxnetworks' })
     e.remove({ mod: 'treasure2' })
-
-    //alchemistry
     e.remove({ mod: 'alchemistry' })
-
-    //hostilenetworks
     e.remove({ mod: 'hostilenetworks' })
-
-    //entangled
     e.remove({ mod: 'entangled' })
 
     console.log('Removing the World!!!')
