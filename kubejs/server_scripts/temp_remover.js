@@ -1,5 +1,5 @@
 ServerEvents.recipes(e => {
-    e.remove({ mod: 'minecraft' })//Temp - gonna test something.
+    //e.remove({ mod: 'minecraft' })//Temp - gonna test something.
 
     //APOTH
     e.remove({ mod: 'apotheosis' })//BookShelfs Unaffected
@@ -128,7 +128,44 @@ ServerEvents.recipes(e => {
     //createlowheated
     e.remove({ mod: 'createlowheated' })
 
+    //Torch Master
+    e.remove({ mod: 'torchmaster' })
 
+    //Flux Networks
+    e.remove({ mod: 'fluxnetworks' })
+
+    //bloodmagic
+    e.remove({ mod: 'bloodmagic' })
+
+    //tomeofblood
+    e.remove({ mod: 'tomeofblood' })
+    
+    //ars_nonveau
+    e.remove({ mod: 'ars_nouveau' })
+
+    //arseng
+    e.remove({ mod: 'arseng' })
+
+    //occultism
+    e.remove({ mod: 'occultism' })
+
+    //cctweaked
+    e.remove({ mod: 'computercraft' })
+
+    //advancedperipherals
+    e.remove({ mod: 'advancedperipherals' })
+
+    //treasure2
+    e.remove({ mod: 'treasure2' })
+
+    //alchemistry
+    e.remove({ mod: 'alchemistry' })
+
+    //hostilenetworks
+    e.remove({ mod: 'hostilenetworks' })
+
+    //entangled
+    e.remove({ mod: 'entangled' })
 
     console.log('Removing the World!!!')
 })//End Of File
