@@ -1,0 +1,7 @@
+
+// Smithing Syntax
+event.smithing(
+    '',  // arg 1: Output
+    '', // arg 2: Template
+    '',   // arg 3: ItemOne
+    '')  // arg 4: ItemTwo
