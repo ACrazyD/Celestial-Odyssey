@@ -5,7 +5,13 @@ ServerEvents.recipes((event) => {
     .itemInputs("2x minecraft:iron_ingot", "2x create:zinc_ingot")
     .itemOutputs("1x gtceu:andesite_alloy_ingot")
     .duration(300) //Useless?
-    .EUt(8)//Power Useage
+    .EUt(8) //Power Useage
+    
+
+
+
+
+    
 
 
 
