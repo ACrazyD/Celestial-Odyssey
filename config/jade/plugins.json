@@ -124,6 +124,9 @@
     "hud": true,
     "hud.redstone": true
   },
+  "pipez": {
+    "pipe": true
+  },
   "delightful": {
     "crop_progress": true
   },
