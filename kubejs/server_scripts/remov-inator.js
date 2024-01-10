@@ -86,6 +86,7 @@ ServerEvents.recipes(e => {
     e.remove({ mod: 'alchemistry' })
     e.remove({ mod: 'hostilenetworks' })
     e.remove({ mod: 'entangled' })
+    e.remove({ mod: "pipez" });
 
     console.log('Removing the World!!!')
 })//End Of File
