@@ -1,4 +1,5 @@
 GTCEuStartupEvents.registry('gtceu:material', e => {
+
     //Andesite Alloy
     e.create('andesite_alloy')
         .ingot()
@@ -10,5 +11,9 @@ GTCEuStartupEvents.registry('gtceu:material', e => {
         .dust()
         .cableProperties(GTValues.V[GTValues.LV], 10, 0, true)
 
+    e.create('rose_quartz') 
+        .gem(1)
+        .components('1x silicon', '2x oxygen')
+        .color(0xFF69B4).iconSet(GTMaterialIconSet.GEM_VERTICAL)
 
 })//End Of File

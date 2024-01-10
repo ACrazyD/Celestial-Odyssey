@@ -4,17 +4,17 @@
 			"minecraft:copper_ore",
 			"minecraft:deepslate_copper_ore",
 		],
-		"osmium_ore": [
-			"mekanism:osmium_ore",
-			"mekanism:deepslate_osmium_ore",
+		"lapis_ore": [
+			"minecraft:lapis_ore",
+			"minecraft:deepslate_lapis_ore",
 		],
 		"gold_ore": [
 			"minecraft:gold_ore",
 			"minecraft:deepslate_gold_ore",
 		],
-		"tin_ore": [
-			"mekanism:deepslate_tin_ore",
-			"mekanism:tin_ore",
+		"zinc_ore": [
+			"create:deepslate_zinc_ore",
+			"create:zinc_ore",
 		],
 		"nether_gold_ore": [
 			"minecraft:nether_gold_ore",
@@ -23,9 +23,13 @@
 			"minecraft:redstone_ore",
 			"minecraft:deepslate_redstone_ore",
 		],
-		"fluorite_ore": [
-			"mekanism:deepslate_fluorite_ore",
-			"mekanism:fluorite_ore",
+		"coal_ore": [
+			"minecraft:coal_ore",
+			"minecraft:deepslate_coal_ore",
+		],
+		"emerald_ore": [
+			"minecraft:deepslate_emerald_ore",
+			"minecraft:emerald_ore",
 		],
 		"diamond_ore": [
 			"minecraft:diamond_ore",
@@ -34,26 +38,6 @@
 		"iron_ore": [
 			"minecraft:iron_ore",
 			"minecraft:deepslate_iron_ore",
-		],
-		"uranium_ore": [
-			"mekanism:uranium_ore",
-			"mekanism:deepslate_uranium_ore",
-		],
-		"lapis_ore": [
-			"minecraft:lapis_ore",
-			"minecraft:deepslate_lapis_ore",
-		],
-		"zinc_ore": [
-			"create:deepslate_zinc_ore",
-			"create:zinc_ore",
-		],
-		"coal_ore": [
-			"minecraft:coal_ore",
-			"minecraft:deepslate_coal_ore",
-		],
-		"emerald_ore": [
-			"minecraft:deepslate_emerald_ore",
-			"minecraft:emerald_ore",
 		],
 		"quartz_ore": [
 			"minecraft:nether_quartz_ore",
