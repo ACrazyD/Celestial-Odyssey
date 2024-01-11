@@ -1,6 +1,5 @@
 /.curseclient
 /.mixin.out
-/.vscode
 /crash-reports
 /downloads
 /ESM
@@ -29,3 +28,4 @@
 servers.dat_old
 .gitignore
 
+.vscode/settings.json
