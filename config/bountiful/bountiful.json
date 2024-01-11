@@ -4,11 +4,11 @@
     "flatBonusTimePerBounty": 0,
     "shouldBountiesHaveTimersAndExpire": true,
     "dataPackExclusions": [
-        "bounty_pools/bountiful/example_pool",
-        "bounty_pools/*/another_example",
-        "bounty_decrees/other/*"
+        "bounty_pools/bountiful/*",
+        "bounty_decrees/bountiful/*"
+        
     ],
     "objectiveModifier": 0,
-    "maxNumRewards": 2,
+    "maxNumRewards": 5,
     "showCompletionToast": true
 }

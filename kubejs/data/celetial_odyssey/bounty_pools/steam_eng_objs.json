@@ -1,0 +1,17 @@
+{
+    "content": {
+        "catcher_obj_catch_bug": {
+            "type": "criteria",
+            "icon": "cobblemon:poke_ball",
+            "content": "cobblemon:catch_pokemon",
+            "conditions": {
+                "type": "bug"
+            },
+            "amount": {
+                "min": 3,
+                "max": 10
+            },
+            "unitWorth": 250
+        }
+    }
+}
