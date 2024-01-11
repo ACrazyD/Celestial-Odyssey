@@ -531,8 +531,9 @@
 			id: "1C1802ABF3EE3120"
 			rewards: [{
 				count: 8
+				icon: "gtceu:raw_aluminium"
 				id: "350821400A1DBB6F"
-				item: "gtceu:raw_aluminum"
+				item: "gtceu:raw_aluminium"
 				random_bonus: 4
 				type: "item"
 			}]
@@ -540,13 +541,13 @@
 			size: 1.5d
 			subtitle: "Aluminium is that you?"
 			tasks: [{
-				icon: "gtceu:aluminum_ingot"
+				icon: "gtceu:aluminium_ingot"
 				id: "7B46FA23AF26BF76"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "forge:ingots/aluminum"
+						value: "forge:ingots/aluminium"
 					}
 				}
 				title: "Aluminum Ingot"
