@@ -83,7 +83,7 @@ ServerEvents.recipes(e => {
     e.remove({ mod: 'torchmaster' })
     e.remove({ mod: 'fluxnetworks' })
     e.remove({ mod: 'treasure2' })
-    e.remove({ mod: 'alchemistry' })
+    //e.remove({ mod: 'alchemistry' })
     e.remove({ mod: 'hostilenetworks' })
     e.remove({ mod: 'entangled' })
     e.remove({ mod: "pipez" });
