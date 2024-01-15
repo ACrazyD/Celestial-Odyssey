@@ -1,4 +1,40 @@
 ServerEvents.recipes(e => {
+
+    //Removing thingy for (create/smithing.js)
+    const createsmithremove = [
+        'create:shaft',
+        'create:cogwheel',
+        'create:large_cogwheel',
+        'create:copper_valve_handle',
+        'create:mechanical_press',
+        'create:mechanical_mixer',
+        'create:mechanical_drill',
+        'create:deployer',
+        'create:mechanical_saw',
+        'create:fluid_pipe',
+        'create:mechanical_pump',
+        'create:smart_fluid_pipe',
+        'create:fluid_valve',
+        'create:spout',
+        'create:fluid_tank',
+        'create_dd:bronze_drill',
+        'create_dd:bronze_saw'
+    ];
+
+    createsmithremove.forEach(element => {
+        e.remove({ output: element });});
+    
+    //Removing thingy for (create/crafting.js)
+    const createcraftremove = [
+        'create:shaft',
+        'create:cogwheel',
+        'create:large_cogwheel',
+        'create:copper_valve_handle'
+    ];
+
+    createcraftremove.forEach(element => {
+        e.remove({ output: element });});
+
     //minecraft
     //e.remove({ mod: 'minecraft' }) //Temp - gonna test something.
 
@@ -7,13 +43,14 @@ ServerEvents.recipes(e => {
     e.remove({ mod: 'apotheotic_additions' })
 
     //create
-    e.remove({ mod: 'create' })
+    //e.remove({ mod: 'create' })
     e.remove({ mod: 'ad_astra' })
     e.remove({ mod: 'create_new_age' })
     e.remove({ mod: 'railways' })
     e.remove({ mod: 'tfmg' })
     e.remove({ mod: 'createlowheated' })
     e.remove({ mod: 'compressedcreativity' })
+    e.remove({ mod: 'create_dd' })
 
     e.remove({ mod: 'pneumaticcraft' })
 
@@ -86,7 +123,10 @@ ServerEvents.recipes(e => {
     //e.remove({ mod: 'alchemistry' })
     e.remove({ mod: 'hostilenetworks' })
     e.remove({ mod: 'entangled' })
-    e.remove({ mod: "pipez" });
+    e.remove({ mod: "pipez" })
+    e.remove({ mod: "gag"})
+
+
 
     console.log('Removing the World!!!')
 })//End Of File

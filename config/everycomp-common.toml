@@ -65,6 +65,94 @@
 			[general.types.wood_type.betterarcheology]
 				rotten = true
 
+			[general.types.wood_type.create_dd]
+				rose = true
+				smoked = true
+				spirit = true
+				rubber = true
+
+			[general.types.wood_type.compressedblocks]
+				c0_oak = true
+				c1_oak = true
+				c2_oak = true
+				c3_oak = true
+				c4_oak = true
+				c5_oak = true
+				c6_oak = true
+				c7_oak = true
+				c8_oak = true
+				c9_oak = true
+				c0_spruce = true
+				c1_spruce = true
+				c2_spruce = true
+				c3_spruce = true
+				c4_spruce = true
+				c5_spruce = true
+				c6_spruce = true
+				c7_spruce = true
+				c8_spruce = true
+				c9_spruce = true
+				c0_birch = true
+				c1_birch = true
+				c2_birch = true
+				c3_birch = true
+				c4_birch = true
+				c5_birch = true
+				c6_birch = true
+				c7_birch = true
+				c8_birch = true
+				c9_birch = true
+				c0_jungle = true
+				c1_jungle = true
+				c2_jungle = true
+				c3_jungle = true
+				c4_jungle = true
+				c5_jungle = true
+				c6_jungle = true
+				c7_jungle = true
+				c8_jungle = true
+				c9_jungle = true
+				c0_acacia = true
+				c1_acacia = true
+				c2_acacia = true
+				c3_acacia = true
+				c4_acacia = true
+				c5_acacia = true
+				c6_acacia = true
+				c7_acacia = true
+				c8_acacia = true
+				c9_acacia = true
+				c0_dark_oak = true
+				c1_dark_oak = true
+				c2_dark_oak = true
+				c3_dark_oak = true
+				c4_dark_oak = true
+				c5_dark_oak = true
+				c6_dark_oak = true
+				c7_dark_oak = true
+				c8_dark_oak = true
+				c9_dark_oak = true
+				c0_mangrove = true
+				c1_mangrove = true
+				c2_mangrove = true
+				c3_mangrove = true
+				c4_mangrove = true
+				c5_mangrove = true
+				c6_mangrove = true
+				c7_mangrove = true
+				c8_mangrove = true
+				c9_mangrove = true
+				c0_cherry = true
+				c1_cherry = true
+				c2_cherry = true
+				c3_cherry = true
+				c4_cherry = true
+				c5_cherry = true
+				c6_cherry = true
+				c7_cherry = true
+				c8_cherry = true
+				c9_cherry = true
+
 		[general.types.leaves_type]
 
 			[general.types.leaves_type.biomesoplenty]
@@ -176,6 +264,9 @@
 
 			[general.types.leaves_type.alexscaves]
 				ancient = true
+
+			[general.types.leaves_type.create_dd]
+				rubber = true
 
 	[general.entries]
 

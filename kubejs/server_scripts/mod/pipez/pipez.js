@@ -1,7 +1,7 @@
 
-ServerEvents.recipes(e => {
-
-    e.shaped(Item.of('8x pipez:energy_pipe'), [
+ServerEvents.recipes(event => {
+    
+    event.shaped(Item.of('8x pipez:energy_pipe'), [
         'PWP',
         'PWP',
         'PWP'
@@ -10,7 +10,7 @@ ServerEvents.recipes(e => {
         W: 'gtceu:tin_single_cable'
     });
 
-    e.shaped(Item.of('8x pipez:fluid_pipe'), [
+    event.shaped(Item.of('8x pipez:fluid_pipe'), [
         'PWP',
         'PWP',
         'PWP'
@@ -19,7 +19,7 @@ ServerEvents.recipes(e => {
         W: 'gtceu:copper_tiny_fluid_pipe'
     });
 
-    e.shaped(Item.of('8x pipez:item_pipe'), [
+    event.shaped(Item.of('8x pipez:item_pipe'), [
         'PWP',
         'PWP',
         'PWP'
@@ -28,7 +28,7 @@ ServerEvents.recipes(e => {
         W: 'gtceu:tin_small_item_pipe'
     });
 
-    e.shaped(Item.of('8x pipez:universal_pipe'), [
+    event.shaped(Item.of('8x pipez:universal_pipe'), [
         'LWL',
         'ZCZ',
         'STS'
@@ -41,7 +41,7 @@ ServerEvents.recipes(e => {
         T: 'gtceu:tin_small_item_pipe'
     });
 
-    e.shaped(Item.of('pipez:wrench'), [
+    event.shaped(Item.of('pipez:wrench'), [
         ' P ',
         ' BP',
         'B  '
@@ -50,7 +50,7 @@ ServerEvents.recipes(e => {
         B: 'gtceu:brass_rod'
     });
 
-    e.shaped(Item.of('pipez:basic_upgrade'), [
+    event.shaped(Item.of('pipez:basic_upgrade'), [
         'PPP',
         'UCU',
         'PPP'
@@ -60,7 +60,7 @@ ServerEvents.recipes(e => {
         C: 'gtceu:lv_conveyor_module'
     });
 
-    e.shaped(Item.of('pipez:improved_upgrade'), [
+    event.shaped(Item.of('pipez:improved_upgrade'), [
         'PPP',
         'UCU',
         'PPP'
@@ -70,7 +70,7 @@ ServerEvents.recipes(e => {
         C: 'gtceu:mv_conveyor_module'
     });
 
-    e.shaped(Item.of('pipez:advanced_upgrade'), [
+    event.shaped(Item.of('pipez:advanced_upgrade'), [
         'PPP',
         'UCU',
         'PPP'
@@ -80,7 +80,7 @@ ServerEvents.recipes(e => {
         C: 'gtceu:hv_conveyor_module'
     });
 
-    e.shaped(Item.of('pipez:ultimate_upgrade'), [
+    event.shaped(Item.of('pipez:ultimate_upgrade'), [
         'PPP',
         'UCU',
         'PPP'
@@ -90,7 +90,7 @@ ServerEvents.recipes(e => {
         C: 'gtceu:ev_conveyor_module'
     });
 
-    e.shaped(Item.of('pipez:filter_destination_tool'), [
+    event.shaped(Item.of('pipez:filter_destination_tool'), [
         'PPP',
         'RGR',
         'PBP'
