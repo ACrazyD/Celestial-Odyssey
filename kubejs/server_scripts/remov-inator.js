@@ -34,6 +34,8 @@ ServerEvents.recipes(e => {
 
     createcraftremove.forEach(element => {
         e.remove({ output: element });});
+    
+    e.remove({ output: "minecraft:crafting_table" })
 
     //minecraft
     //e.remove({ mod: 'minecraft' }) //Temp - gonna test something.
