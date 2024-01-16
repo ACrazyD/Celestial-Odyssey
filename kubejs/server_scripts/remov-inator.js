@@ -36,6 +36,7 @@ ServerEvents.recipes(e => {
         e.remove({ output: element });});
     
     e.remove({ output: "minecraft:crafting_table" })
+    e.replaceInput({ input: 'minecraft:crafting_table' }, 'minecraft:crafting_table', '#charm:crafting_table')
 
     //minecraft
     //e.remove({ mod: 'minecraft' }) //Temp - gonna test something.
