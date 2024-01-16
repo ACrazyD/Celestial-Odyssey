@@ -14,15 +14,15 @@
 ["Level System"]
 	#Max level for the level system.
 	#Range: 0 ~ 999
-	levelMax = 100
+	levelMax = 300
 	#Level factor to distribute experience between min level and max level.
 	#Recommended: 300 for lvl 1-100, 150 for lvl 1-200, 100 for lvl 1-300, ...
 	#Range: 1 ~ 999
-	levelFactor = 300
+	levelFactor = 100
 	#Level factor to distribute item experience between min level and max level.
 	#Recommended: 125 for lvl 1-100, 250 for lvl 1-200, 275 for lvl 1-300, ...
 	#Range: 1 ~ 999
-	levelFactorItems = 125
+	levelFactorItems = 275
 	#Experience penalty for each death (0 = disabled)
 	#Range: 0 ~ 1000
 	levelExperienceDeathPenalty = 65
