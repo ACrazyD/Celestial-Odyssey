@@ -30,7 +30,8 @@ ServerEvents.recipes(e => {
     craftingbench('vct:bm_blighted_balsa_crafting_table', 'biomemakover:blighted_balsa_log')
     craftingbench('vct:bm_swamp_cypress_crafting_table', 'biomemakover:swamp_cypress_log')
     craftingbench('vct:bm_willow_crafting_table', 'biomemakover:willow_log')
+    craftingbench('vct:bamboo_crafting_table', 'minecraft:bamboo_block')
 
-    
+
 
 })
