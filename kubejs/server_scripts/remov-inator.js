@@ -54,6 +54,8 @@ ServerEvents.recipes(e => {
     e.remove({ mod: 'createlowheated' })
     e.remove({ mod: 'compressedcreativity' })
     e.remove({ mod: 'create_dd' })
+    e.remove({ mod: 'create_connected' })
+    //e.remove({ mod: 'createsifter' })
 
     e.remove({ mod: 'pneumaticcraft' })
 
@@ -95,8 +97,9 @@ ServerEvents.recipes(e => {
     e.remove({ mod: 'tomeofblood' })
 
     //cctweaked
-    e.remove({ mod: 'computercraft' })
+    //e.remove({ mod: 'computercraft' })
     e.remove({ mod: 'advancedperipherals' })
+    e.remove({ mod: 'cccbridge'})
 
     //Storages
     e.remove({ mod: 'sophisticatedbackpacks' })
@@ -133,3 +136,8 @@ ServerEvents.recipes(e => {
 
     console.log('Removing the World!!!')
 })//End Of File
+
+
+GTCEuServerEvents.oreVeins(event => {
+    event.removeAll()
+})

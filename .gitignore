@@ -33,3 +33,5 @@ config/voicechat/username-cache.json
 config/bettervillage_1.properties
 config/libraryferret_1.properties
 config/oculus.properties
+.vscode
+.vscode/*
