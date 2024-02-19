@@ -1,0 +1,48 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "star_peddler"
+	group: ""
+	id: "0CB2ECC1AF72A0FA"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"*BZZZ* This is Nova Broadcasting on all frequencies, For all that can here me I come with wares."
+				""
+				"By the Guidelines of Interdimensional trade laws I can only sell you things that you can get your self. So no &l&o&n&mREDACTED&r for you sorry."
+			]
+			id: "2E56862511C35B40"
+			tasks: [{
+				id: "3E933E05687EE553"
+				title: "Incomming Transmission!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&o&bGreetings, esteemed User! I'm Nova, the Stellar Peddler. What brings you to my humble emporium of wonders today?"
+				""
+				"&o&bI sell it all, at prices that are \"Classified\" as a bargen in the trade..."
+				""
+				"{@pagebreak}"
+				"&o&bAs regulation states, Im not allowed to sell you items you cant get your self.* This is monitored and i can be *Removed* for doing so if caught."
+				""
+				"*Based on your progress on quests items will be unlocked."
+			]
+			id: "188492B89D409357"
+			tasks: [{
+				id: "15EEE9C14B53DF93"
+				title: "Welcome!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+	]
+	subtitle: ["Hello? This is Nova!"]
+	title: "Star Peddler"
+}

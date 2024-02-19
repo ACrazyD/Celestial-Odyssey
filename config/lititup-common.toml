@@ -26,4 +26,6 @@
 	Brick_furnace_mod_compatibility = true
 	#Enable or disable compatibility with the Iron Furnaces mod. Link: https://www.curseforge.com/minecraft/mc-mods/iron-furnaces
 	Iron_furnaces_mod_compatibility = true
+	#Enable or disable compatibility with the Better Furnace Reforged mod. Link: https://www.curseforge.com/minecraft/mc-mods/better-furnaces-reforged
+	Better_Furnaces_Reforged_mod_compatibility = true
 

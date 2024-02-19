@@ -1,0 +1,559 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "gtceu"
+	group: ""
+	icon: {
+		Count: 1b
+		id: "gtceu:iron_wrench"
+		tag: {
+			Damage: 0
+			GT.Tool: {
+				Damage: 0
+			}
+		}
+	}
+	id: "2F8B0AFE317363C9"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependency_requirement: "one_completed"
+			description: [
+				"Wrought Iron has a very low carbon content, but that's enough to make it &btougher&r than regular Iron."
+				""
+				"&aGregTech&r tools made of Wrought Iron are &650% more durable&r than their Iron cousins. You might want to consider using Wrought Iron until you unlock &2something better&r."
+				""
+				"To obtain Wrought Iron, you can &6smelt&r Iron Nuggets into Wrought Iron Nuggets, then recombine them into an ingot. Make sure you don't convert all of your Iron supply, as the two &4&laren't&r interchangeable."
+				""
+				"This may be time-consuming, but rest assured, you'll unlock a &ebetter way&r to produce Wrought Iron before long."
+			]
+			icon: "gtceu:wrought_iron_ingot"
+			id: "563C96885A227C9F"
+			rewards: [{
+				count: 5
+				id: "3CDB383AFEBDB519"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Murder, she Wrought"
+			tasks: [{
+				id: "3DAB1D757B3B049D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/wrought_iron"
+					}
+				}
+				title: "Wrought Iron Ingot"
+				type: "item"
+			}]
+			title: "Better Than Iron"
+			x: 0.66d
+			y: -1.32d
+		}
+		{
+			description: [
+				"Alright - your first &oproper&r &aGregTech&r tool. The first of &dmany&r."
+				""
+				"GT tools can be made out of many different materials. When used in crafting recipes, they &baren't consumed&r, instead losing durability. You'll want to start with an Iron tool - but you could opt for Wrought Iron if you already tackled that quest."
+				""
+				"&9&lHammer&f:&r A crafting tool that shows up in a lot of earlygame recipes. Its secondary function is muting machines by &msmacking&r right-clicking them."
+				""
+				"As a sidenote on all &aGregTech&r tools, you can repair them in an Anvil using the material of the tool itself, just like any vanilla tool. If you are finding yourself short on experience, &eBottles o' Enchanting&r are now craftable."
+			]
+			id: "7DEB73FD649BDFB6"
+			rewards: [{
+				id: "6C50A2A3D43D3FEE"
+				item: "gtceu:iron_plate"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.75d
+			subtitle: "Your first GT Tool!"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "gtceu:steel_hammer"
+					tag: {
+						Damage: 0
+						GT.Tool: {
+							Damage: 0
+						}
+					}
+				}
+				id: "1A4DDB914D7D2F3C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/hammers"
+					}
+				}
+				title: "Any Hammer!"
+				type: "item"
+			}]
+			title: "STOP! Hammer time!"
+			x: 2.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2001CB4968D3E0A2"]
+			description: [
+				"This hammer isn't quite like the ones you'll use for crafting. It actually works as a &d3x3 pickaxe&r!"
+				""
+				"If you're familiar with &a&lTinker's Construct&r, it behaves &esimilarly&r to hammers from that mod."
+				""
+				"Make &bgood use&r of these hammers! They'll help you to clear out an entire vein in &6record time&r."
+				""
+				"&eNote:&r Any quest with GregTech tools can be complete with tools crafted from any material - not just the one displayed."
+			]
+			icon: {
+				Count: 1b
+				id: "gtceu:steel_mining_hammer"
+				tag: {
+					Damage: 0
+					GT.Tool: {
+						Damage: 0
+					}
+				}
+			}
+			id: "4A365A7CC9E374F9"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Mining just became efficient"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "gtceu:steel_mining_hammer"
+					tag: {
+						Damage: 0
+						GT.Tool: {
+							Damage: 0
+						}
+					}
+				}
+				id: "4F372C393ADC6CE2"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/mining_hammers"
+					}
+				}
+				title: "Any Mining Hammer will do."
+				type: "item"
+			}]
+			title: "Hammer down!"
+			x: 2.25d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7DEB73FD649BDFB6"]
+			description: [
+				"More GregTech tools are required for progression - here are the ones to lay eyes on."
+				""
+				"&9&lWrench:&r A crafting tool, but also the correct tool for GregTech machines... perfect if you think using pickaxes is unethical. It can also double as a &6wrench for other mods&r. Right-click allows you to set the output side of GregTech machines, and sneak-right-clicking rotates machines."
+				""
+				"&9&lFile:&r A crafting tool... and that's it. Yay!"
+				""
+				"&9&lSaw:&r Yet another crafting tool. If we were any more evil, we would force its use if you wanted to obtain 4 Planks and 4 Sticks from their respective crafting recipes. That being said, you can still use it to get &a6 Planks per Log&r, if you wish."
+				"{@pagebreak}"
+				"&eNote:&r Any Quest with GregTech tools can be completed with the tool crafted from any material, not just the one displayed."
+			]
+			icon: {
+				Count: 1b
+				id: "gtceu:iron_wrench"
+				tag: {
+					Damage: 0
+					GT.Tool: {
+						Damage: 0
+					}
+				}
+			}
+			id: "2001CB4968D3E0A2"
+			shape: "square"
+			size: 0.75d
+			tasks: [
+				{
+					id: "54E092F42DA65B86"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/wrenches"
+						}
+					}
+					title: "Any Wrench!"
+					type: "item"
+				}
+				{
+					id: "4D6B7E2B4C8E5747"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/files"
+						}
+					}
+					title: "Any File!"
+					type: "item"
+				}
+				{
+					id: "23D6CF49FC7E82A9"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/saws"
+						}
+					}
+					title: "Any Saw!"
+					type: "item"
+				}
+			]
+			title: "Important Tools"
+			x: 3.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2001CB4968D3E0A2"]
+			description: [
+				"More tools - they're not critically important right now, but you'll need to make these at some point."
+				""
+				"&9&lScrewdriver:&r A crafting tool. It's used for special configuration of machines and covers."
+				""
+				"&9&lWire Cutter:&r A crafting tool. You'll need it if you want to configure wire connections. Right-clicking on wires will enable or disable connection to other blocks."
+				""
+				"&9&lMortar:&r A crafting tool, used to grind various things down into dust form."
+				""
+				"&9&lKnife:&r A pretty mediocre weapon, better suited as - &oyou guessed it&r - a crafting tool!"
+				""
+				"&9&lSoft Mallet:&r A tool to toggle machine operation with a simple right-click."
+				"{@pagebreak}"
+				"There are a couple of other tools that are quite niche, but deserve a mention."
+				""
+				"&9&lCrowbar:&r A helpful tool that can remove covers from &aGregTech&r machines by right-clicking the side."
+				""
+				"&9&lScythe:&r A powerful farming tool that can automatically replant your crops in a large area. It's also a surprisingly good weapon!"
+				""
+				"&9&lPlunger:&r A tool to clear stuck fluids from GregTech&a machines."
+				""
+				"&9&lButchery Knife:&r A weapon that comes pre-enchanted with &6Looting III&r. You might want to use it to gather leather and food."
+				"{@pagebreak}"
+				"&e&lNote:&r This quest's reward is &3Damascus Steel&r - a rare material which can only be found as overworld loot. It far surpasses the materials you have now, so be sure to use it."
+			]
+			icon: {
+				Count: 1b
+				id: "gtceu:iron_screwdriver"
+				tag: {
+					Damage: 0
+					GT.Tool: {
+						Damage: 0
+					}
+				}
+			}
+			id: "5C3501DD3B4788FA"
+			rewards: [{
+				count: 16
+				id: "433F0ED89B586383"
+				item: "gtceu:damascus_steel_ingot"
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [
+				{
+					id: "4055931FAD6A5087"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/screwdrivers"
+						}
+					}
+					title: "Any Screwdriver!"
+					type: "item"
+				}
+				{
+					id: "0CB546DCA11BB335"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/wire_cutters"
+						}
+					}
+					title: "Any Wire Cutter!"
+					type: "item"
+				}
+				{
+					id: "4DF1C23D7DD1FAD6"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/mortars"
+						}
+					}
+					title: "Any Mortar!"
+					type: "item"
+				}
+				{
+					id: "397DD831CA0665E7"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/knives"
+						}
+					}
+					title: "Any Knife!"
+					type: "item"
+				}
+				{
+					id: "1BFE642ED0595A93"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/mallets"
+						}
+					}
+					title: "Any Soft Mallet!"
+					type: "item"
+				}
+			]
+			title: "More Tools"
+			x: 5.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2001CB4968D3E0A2"]
+			description: [
+				"The &e&lCoke Oven&r will likely be your first &aGregTech&r multiblock. Congratulations!"
+				""
+				"It is used to make &aCoke&r from &eCoal&r, or &aCharcoal&r from &eWood&r, in addition to &dliquid Creosote&r as a &3bonus&r output."
+				""
+				"Take a look at the &6Multiblock Preview&r tab in JEI to see the structure pattern."
+				"{@pagebreak}"
+				"&9Note:&r &lAny&r Brick block can be replaced with a &3Coke Oven Hatch&r. You can have up to five of them."
+				""
+				"The Hatch allows for automation - it'll &dauto-export&r both Fluid and Items! It also works for insertion into the Coke Oven (you can use Hoppers)."
+				""
+				"If the Coke Oven happens to fully fill up on &eCreosote&r that you are not using, break and replace the Coke Oven block. &3Automated fluid voiding&r is available later in the game."
+				"{@pagebreak}"
+				"&l&3Lore:&r&o The concept of multiblocks is a modded Minecraft classic. Think of IC2's Nuclear Reactor, or Railcraft's Coke Oven - truly revolutionary at the time!&r"
+			]
+			icon: "gtceu:coke_oven"
+			id: "4946FC5BCA4CCA88"
+			min_required_dependencies: 1
+			shape: "gear"
+			size: 1.2d
+			subtitle: "Your first big project... hopefully"
+			tasks: [{
+				id: "3545479A7C09CDFC"
+				item: "gtceu:coke_oven"
+				type: "item"
+			}]
+			title: "Coke Oven"
+			x: 5.25d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2001CB4968D3E0A2"]
+			description: [
+				"More resources are always nice. You're getting close to entering the &6age of Steam&r - Copper and Tin are required in many &6Steam Age&r machines, so check the ore tab to find out what veins they can be found in, and get mining!"
+				""
+				"If the different ore names are &bconfusing&r, you can tell which elements an ore holds at a glance by reading the &dmolecular formula&r in its tooltip. Copper is &oCu&r, Tin is &oSn&r, Iron is &oFe&r, and you can consult a &3periodic table&r for the rest. It's time to brush up on your chemistry - you'll need it for &llater&r."
+				""
+				"This quest can be completed with &9either metal&r, so you can claim the metal you're missinng as the reward. Be sure to find a source of both soon, as a &a&ocertain&r&a Copper-Tin alloy&r will be needed to get through the &6Steam Age&r."
+			]
+			icon: "minecraft:copper_ingot"
+			id: "45969FFBF88F4FBB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C28FA1A5275D24E"
+				table_id: 1702176335602373230L
+				type: "choice"
+			}]
+			size: 0.75d
+			subtitle: "Gather more resources!"
+			tasks: [{
+				count: 32L
+				id: "616556ECE4DB6103"
+				item: {
+					Count: 32b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:copper_ingot"
+							}
+							{
+								Count: 1b
+								id: "gtceu:tin_ingot"
+							}
+						]
+					}
+				}
+				title: "32 Copper or Tin"
+				type: "item"
+			}]
+			title: "Onwards to the Age of Bronze!"
+			x: 3.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["45969FFBF88F4FBB"]
+			description: [
+				"&6Bronze&r is an &2alloy&r of Copper and Tin. Grind down 3 parts Copper and 1 part Tin into dust, then combine and smelt them. If you are confused on how this is done, take a look at the &o\"&dMore Tools&r&o\"&r quest."
+				""
+				"Aim to make &amany more&r Bronze Ingots than is called for here. This is the main material for the &6Steam Age&r, and you will need LOTS of it."
+				""
+				"&6&lThe progression now continues in the Steam Age chapter.&r"
+				"{@pagebreak}"
+				"&l&3Lore:&r&o Bronze in real life is closer to a ratio of 7:1 for Copper to Tin. Here (and in most of modded Minecraft) this is &4not&f the case for the sake of game balance. There are a lot of things like this that need to be tweaked - &eno realism here&f."
+			]
+			icon: "gtceu:bronze_ingot"
+			id: "315DBB3B23F95E0D"
+			rewards: [{
+				count: 32
+				id: "5F229B651404DF0E"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.3d
+			subtitle: "Humanity's first alloy - and yours too!"
+			tasks: [{
+				count: 24L
+				id: "39AEA2923971A2B5"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			title: "Bronze Age? No, &6Steam Age&r!"
+			x: 5.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["45969FFBF88F4FBB"]
+			description: [
+				"Iron, Copper and Tin will only get you so far. &4Redstone&r and &bDiamond&r will occasionally be required during the &6Steam Age&r, whereas Nickel, Lead and Silver are also nice to have. All will come in handy &asoon enough&r."
+				""
+				"&oConsult the ore tab if you're struggling to find these materials!&r"
+			]
+			icon: "gtceu:silver_ingot"
+			id: "62212F2B51AC779E"
+			rewards: [
+				{
+					count: 128
+					id: "2C6F42288FF9B7DA"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "5242721C19BCC092"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "04BE5FBBF9402D5D"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 24
+					id: "2D409B8436727D1C"
+					item: "gtceu:nickel_ingot"
+					type: "item"
+				}
+				{
+					count: 24
+					id: "35EE3F4BAAE41AC3"
+					item: "gtceu:lead_ingot"
+					type: "item"
+				}
+				{
+					count: 24
+					id: "70008D5488014AF1"
+					item: "gtceu:silver_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "29963CB493F50CC0"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "Sometimes, you gotta be inefficient... to be efficient!"
+			tasks: [
+				{
+					count: 64L
+					id: "37A7D2DE2F82E529"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "68684E4712C05221"
+					item: "gtceu:nickel_ingot"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "59AA0604B02D17EF"
+					item: "gtceu:lead_ingot"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "0384FDE2E9B1414F"
+					item: "gtceu:silver_ingot"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "46C1361E3C1678C4"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			title: "Early Investments"
+			x: 5.25d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Rubber Trees can be found in &aForest&r, &2Jungle&r or &aSwamp&r biomes."
+				""
+				"Breaking Rubber Logs will yield &6Resin,&r which will be important moving forwards."
+				""
+				"The logs also offer &duseful resources&r when processed in future."
+			]
+			id: "5193DD03C0742548"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "No, this isn't IC2"
+			tasks: [{
+				count: 8L
+				id: "76851CD51E99CA38"
+				item: "gtceu:rubber_sapling"
+				type: "item"
+			}]
+			title: "Gettin' Shaded under a Rubber Tree"
+			x: 0.75d
+			y: -4.5d
+		}
+	]
+	title: "Introduction"
+}

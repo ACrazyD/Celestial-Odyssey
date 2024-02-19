@@ -31,4 +31,14 @@ VibratingTableStressImpact = 2.0
 allowUnpackingOnVibratingTable = true
 #Allows vibrating leaves on vibrating table to get matching drops
 allowVibratingLeaves = true
+#Centrifuge
+#Value of stress impact for Centrifuge
+#Range: 0.0 ~ 1024.0
+CentrifugeStressImpact = 2.0
+#Curving Press
+#Value of stress impact for Curving Press
+#Range: 0.0 ~ 1024.0
+CurvingPressStressImpact = 8.0
+#Allows automatic recognize recipes for curving press
+allowAutoCurvingRecipes = true
 

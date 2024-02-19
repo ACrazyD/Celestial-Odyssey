@@ -1,0 +1,154 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "arlo_talkin"
+	group: ""
+	id: "7369BA53E3F0308A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"As you ponder the broken transmission, Arlo interrupts, "
+				""
+				"&o&d'Enough gloom. Let's call this place something snappy. Welcome to 'Quasarra.' What do you think?'"
+			]
+			id: "424359FA32D826F9"
+			tasks: [{
+				id: "152AB88F821179F3"
+				title: "Listen to Arlo's suggestion"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"A broken transmission crackles in. "
+				""
+				"&o&e'User, this is HQ. Do you copy? ...Stay vigilant out there, User.' "
+				""
+				"The message cuts off abruptly, leaving an uneasy silence."
+				""
+				"&o&dUser, that was one way. I cant reply... and there is no true origin either. We are mostly on our own out here I think for a while."
+			]
+			id: "31D760A8B2AA654D"
+			tasks: [{
+				id: "4510F7229A00DA07"
+				title: "Listen to the broken transmission"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Among the biomes, you come across ancient structures, their purpose lost to time, some not so much."
+				""
+				"&o&d'These structures have witnessed the chaos. What kind of cosmic architect built this place?'"
+			]
+			id: "12721AD2442A52D9"
+			tasks: [{
+				id: "177B683269C5157E"
+				structure: "#minecraft:village"
+				title: "Investigate ancient structures"
+				type: "structure"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Start collecting resources from DVH-157's mismatched biomes."
+				""
+				"&o&dUser, Im not detecting ores here, atleast not in a useable form other then some very rare scattered nodes. We are gonna be hard pressed to figure out how to handle this one... Im looking though my files to find a way to break this stuff down.'"
+			]
+			id: "58940CBB776CA794"
+			subtitle: "Filler"
+			tasks: [{
+				id: "4ED940DD517F6612"
+				title: "Gather specific resources."
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Amidst the vibrant biomes, hostile fauna lurk. "
+				""
+				"&o&l&d'Watch your six, User. These critters don't follow the rules. Brace yourself; it's a cosmic wildlife convention.'"
+			]
+			id: "332DFD54D0B38BE1"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "79D9A1D3DD9AB6D5"
+				title: "Defeat hostile creatures"
+				type: "kill"
+				value: 10L
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Venture into the kaleidoscope of DVH-157's landscapes. "
+				""
+				"&o&d'Tropical beaches next to icy peaks, who knew? Nature's got its own rulebook here.'"
+			]
+			id: "41D390B18C3CC2DF"
+			tasks: [{
+				biome: "#minecraft:is_overworld"
+				id: "46E75DAEF3D2B87E"
+				title: "Explore"
+				type: "biome"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Arlo, your Suit AI, crackles to life."
+				""
+				"&o&d'Well, well, look who's awake. Bet you're wondering about that stomach-churning turbulence. Not your typical space taxi, huh?'&r"
+				""
+				""
+				"{@pagebreak}"
+				"&l&o&nArlo starts scanning..."
+				""
+				"&r&o&d'Well if im honest user, I cant make heads or tails of this... We arnt in a known stellar region, not that I can confirm without the hardware on the ship thats missing atleast... and the \"Void\" if you wanna call it that seams to loop! transmission down just return from the above."
+				""
+				"&o&dIm sure if you where to fall you would as well, not sure if items would tho, and the fall might hurt... alot...'"
+			]
+			id: "527EC2A2E94EEE48"
+			tasks: [{
+				id: "22ADEEFB8D55757E"
+				title: "Hello Arlo?"
+				type: "checkmark"
+			}]
+			title: "Understanding Gravitational Turbulence"
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&oFind yourself on the alien soil of Quasarra, a world bathed in vibrant hues. The biomes around you beg exploration. "
+				""
+				"&lWelcome to DVH-157, Explorer."
+			]
+			id: "4248FBAF6F8E9598"
+			subtitle: "Step onto DVH-157's surface."
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "3A2DBB01978CDD86"
+				title: "Matter Reconstructed (Sorta)"
+				type: "dimension"
+			}]
+			title: "Welcome to DVH-157"
+			x: -7.0d
+			y: -5.0d
+		}
+	]
+	subtitle: ["Your Suit AI"]
+	title: "Arlo Talkin"
+}
